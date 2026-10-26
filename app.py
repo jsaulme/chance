@@ -3,7 +3,12 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="Luck vs. Skill", page_icon="🎲", layout="wide")
+st.set_page_config(page_title="CHANCE | The Science of Unequal Outcomes", page_icon="🎲", layout="wide")
+
+# Identidad de marca CHANCE
+st.markdown("## CHANCE")
+st.caption("The Science of Unequal Outcomes")
+
 
 # Rango del peso de la suerte: lo usan el selector Y el barrido (una sola fuente de verdad)
 LUCK_MAX = 100.0
