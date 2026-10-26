@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Archivos del sistema y editores
+.DS_Store
+.vscode/
+.idea/
+
+# Logs y archivos temporales
+*.log
+*.tmp
