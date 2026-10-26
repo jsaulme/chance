@@ -724,7 +724,7 @@ dl(gA2, conteo, "coincidencias", "dl_coinc")
 
 # --- Fila B: cómo cambia todo con el peso de la suerte (mismo rango que el selector)
 bloque(T["sw_header"])
-sw_on = st.checkbox(f'{T["sw_check"]} (0%–{LUCK_MAX:g}%)', value=True, key="sw_on")
+sw_on = st.checkbox(f'{T["sw_check"]} (0%–{LUCK_MAX:g}%)', value=False, key="sw_on")
 sw = None
 if sw_on:
     pesos = [g / 100 for g in GRID_PCT if g <= LUCK_MAX]
